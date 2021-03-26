@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "wx0725.top.config.DataSourceConfig",
+      "sourceMethod": "getDruid()"
+    },
+    {
+      "name": "wx0725",
+      "type": "wx0725.top.domain.PropertySourceMain",
+      "sourceType": "wx0725.top.domain.PropertySourceMain"
+    },
+    {
+      "name": "wx0725.top",
+      "type": "wx0725.top.domain.ConfigurationProperticeMain",
+      "sourceType": "wx0725.top.domain.ConfigurationProperticeMain"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wx0725.top-descr",
+      "type": "java.lang.String",
+      "sourceType": "wx0725.top.domain.PropertySourceMain"
+    },
+    {
+      "name": "wx0725.top.email",
+      "type": "java.lang.String",
+      "sourceType": "wx0725.top.domain.ConfigurationProperticeMain"
+    },
+    {
+      "name": "wx0725.top.ip",
+      "type": "java.lang.String",
+      "sourceType": "wx0725.top.domain.ConfigurationProperticeMain"
+    },
+    {
+      "name": "wx0725.top.title",
+      "type": "java.lang.String",
+      "sourceType": "wx0725.top.domain.ConfigurationProperticeMain"
+    }
+  ],
+  "hints": []
+}

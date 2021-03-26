@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+# 指定环境配置[dev(开发) | test(测试) | prod(生产)]
+spring:
+  profiles:
+    active: dev
